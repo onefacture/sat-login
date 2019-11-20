@@ -1,0 +1,27 @@
+{
+  "name": "sat-login",
+  "version": "1.0.2",
+  "description": "Librería para iniciar sesión con el SAT por medio de cookies",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "author": "Alan Olivares<richard.alan.oli@gmail.com, alan@onefacture.com>",
+  "repository": "https://github.com/onefacture/sat-login",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "sat-x509": "2.0.0",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "install": "^0.12.2",
+    "jest": "^24.5.0",
+    "npm": "^6.9.0",
+    "ts-jest": "^24.0.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.4000",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

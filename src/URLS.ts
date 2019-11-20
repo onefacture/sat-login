@@ -1,0 +1,16 @@
+export default {
+    SAT_LOGOUT:                            "https://portalcfdi.facturaelectronica.sat.gob.mx/logout.aspx?salir=y",
+    CAPTCHA_URL:                           "https://cfdiau.sat.gob.mx/nidp/jcaptcha.jpg",
+    SAT_LOGIN_CAPTCHA:                     "https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0",
+    SAT_CHECK_CAPTCHA:                     "https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0",
+    SAT_VERIFY_LOGIN:                      "https://cfdiau.sat.gob.mx/nidp/jsp/content.jsp?sid=1&sid=1&sid=1",
+    SAT_URL_LOGIN:                         "https://cfdiau.sat.gob.mx/nidp/app/login?id=SATUPCFDiCon&sid=1&option=credential&sid=1",
+    SAT_FIEL_LOGIN:                        "https://cfdiau.sat.gob.mx/nidp/app/login?id=SATx509Custom&sid=1&option=credential&sid=1",
+    SAT_HOST_CFDI_AUTH:                    "cfdiau.sat.gob.mx",
+    SAT_HOST_PORTAL_CFDI:                  "portalcfdi.facturaelectronica.sat.gob.mx",
+    SAT_URL_PORTAL_CFDI:                   "https://portalcfdi.facturaelectronica.sat.gob.mx/",
+    SAT_URL_PAC_SAT:                       "https://pacsat.facturaelectronica.sat.gob.mx/",
+    SAT_VERIFICA_SESSION:                  "https://portalcfdi.facturaelectronica.sat.gob.mx/verificasesion.aspx",
+    SAT_MANTIENE_SESSION:                  "https://portalcfdi.facturaelectronica.sat.gob.mx/mantienesesion.aspx",
+    SAT_URL_WSFEDERATION:                  "https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation",
+}
